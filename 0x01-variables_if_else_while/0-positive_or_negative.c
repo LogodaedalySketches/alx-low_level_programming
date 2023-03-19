@@ -4,7 +4,7 @@
 
 /**
  * 
- * main - positive or negative
+ * main - positive, zero or negative
  *
  * Return: Always 0 (Success)
  */
@@ -29,4 +29,3 @@ int main(void)
 
 	return (0);
 }
-
