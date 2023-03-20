@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'possible combinations of single-digit numbers'
- * Returns: Always 0
+ * Description: 'Possible combinations'
+ * Return: Always 0
  */
 int main(void)
 {
