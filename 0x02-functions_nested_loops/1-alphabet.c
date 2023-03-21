@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - lowercase alphabet
  * Description: 'function that prints the alphabet in lowercase'
  * Return: void
  */
 void print_alphabet(void)
 {
-	char lc;
+	int lc = 97;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (lc = 97; lc <= 122; lc++)
 	{
 		_putchar(lc);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
