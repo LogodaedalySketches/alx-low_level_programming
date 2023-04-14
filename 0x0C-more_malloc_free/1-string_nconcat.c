@@ -26,18 +26,18 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!s)
 		return (NULL);
 
-	while (i < len1)
+	while (a < len1)
 	{
-		s[i] = s1[i];
-		i++;
+		s[a] = s1[a];
+		a++;
 	}
 
-	while (n < len2 && i < (len1 + n))
-		s[i++] = s2[j++];
+	while (n < len2 && a < (len1 + n))
+		s[a++] = s2[b++];
 
-	while (n >= len2 && i < (len1 + len2))
-		s[i++] = s2[j++];
-	s[i] = '\0';
+	while (n >= len2 && a < (len1 + len2))
+		s[a++] = s2[b++];
+	s[a] = '\0';
 
 	return (s);
 }
