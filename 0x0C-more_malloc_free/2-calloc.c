@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * *_memset - allocates memory for an array
+ * *_memory - allocates memory for an array
  * @s:- memory to be filled
- * @b:- char to copy
+ * @a:- char to copy
  * @n:- repeated copy times
  * Return: pointer to the memory area s
  */
