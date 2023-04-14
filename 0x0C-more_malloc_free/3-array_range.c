@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * *_range_array - creates integers array
+ * *_array_range - creates integers array
  * @min: min range
  * @max: max range
  * Return: pointer
  */
-int *_range_array(int min, int max)
+int *_array_range(int min, int max)
 {
 	int *ptr;
 	int a, size;
