@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create arrau - create array of chars
+ * create array - create array of chars
  * @size:- size of array
  * @c:- char
  * Return: ponter to array, Null if fail
