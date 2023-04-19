@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print_numbers - function that prints numbers (0 - 9)
- * _putchar - prints ASCII character
- * return: void
+ * print_numbers - function to print numbers form 0 - 9
+ * Return: void
  */
 void print_numbers(void)
 {
-	char a;
+	int a = 0;
 
-	for (a = 0; a < 10; a++)
+	while (a < 10)
 	{
 		_putchar(a);
+		a++;
 	}
 	_putchar('\n');
 }
