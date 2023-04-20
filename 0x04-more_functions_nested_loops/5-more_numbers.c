@@ -1,17 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * more_numbers - function that prints no.s from  - 14
+ * more_numbers - function that prints no.s from 0 - 14
  */
 void more_numbers(void)
 {
-	char a;
+	int a;
+	int b;
 
-	while (a == 0 && a < 15)
+	for (a = 1; a < 11; a++)
 	{
-		_putchar(a);
-		a++;
+		while (b < 15)
+		{
+			if (b >= 10)
+				_putchar('1');
+			_putchar(b % 10 + '0');
+		}
+		_putchar ('\n');
 	}
-	_putchar(a);
-	_putchar('\n');
 }
